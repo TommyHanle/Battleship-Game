@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  margin: auto
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#pside {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+
+}
+
+#cside {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+#user {
+  text-align: center;
+}
+
+#comp {
+  text-align: center;
+}
+
+#player {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . .";
+  width: 600px; 
+  height: 600px; 
+  margin: auto;
+  background-color: green;
+}
+
+#player > div {
+  border: 1px solid black;
+}
+
+#computer {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . .";
+  width: 600px; 
+  height: 600px; 
+  margin: auto;
+  background-color: green;
+}
+
+#computer > div {
+  border: 1px solid black;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  justify-content: center;
+}
