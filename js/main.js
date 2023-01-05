@@ -135,7 +135,7 @@ function handleShipPlacement() {
     placeCompShips(3)
     placeCompShips(2) 
     renderShipPlacement()
-  }
+}
 
 
 function renderShipPlacement() {
@@ -151,10 +151,10 @@ function renderShipPlacement() {
 
 function renderClearBoard() {
     for (let square of userBoardEl.children) {
-        square.style.backgroundColor = 'green'
+        square.style.backgroundColor = 'black'
     }
     for (let square of compBoardEl.children) {
-        square.style.backgroundColor = 'green'
+        square.style.backgroundColor = 'black'
     }
 }
 

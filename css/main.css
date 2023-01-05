@@ -1,14 +1,21 @@
+* {
+  background-color: black;
+}
+
 h1 {
   text-align: center;
-  margin: auto
+  margin: auto;
+  color: green;
 }
 
 h2 {
   text-align: center;
+  color: green;
 }
 
 h3 {
   text-align: center;
+  color: green;
 }
 
 #pside {
@@ -54,11 +61,11 @@ h3 {
   width: 600px; 
   height: 600px; 
   margin: auto;
-  background-color: green;
+  background-color: black;
 }
 
 #player > div {
-  border: 1px solid black;
+  border: 1px solid green;
 }
 
 #computer {  
@@ -81,17 +88,16 @@ h3 {
   width: 600px; 
   height: 600px; 
   margin: auto;
-  background-color: green;
+  background-color: black;
 }
 
 #computer > div {
-  border: 1px solid black;
+  border: 1px solid green;
 }
 
 button {
-  height: 50px;
-  width: 200px;
-  margin: 0 auto;
-  margin-top: 2rem;
-  justify-content: center;
+  height: 35px;
+  width: 150px;
+  margin: 10px 0px 0px 138px;
+  color: green;
 }
