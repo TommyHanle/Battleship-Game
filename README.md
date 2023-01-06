@@ -14,6 +14,7 @@ Features:
 - The game ends when one player sinks all of the other player's ships and the winner is declared.
 - Players can play again by clicking on the "Play Again" button.
 
+![Starting Screen](https://i.imgur.com/sUFavAO.png)
 
 Getting Started:
 - To play this game, simply clone the repository and open the index.html file in your web browser. Alternatively, you can play the game online at https://tommyhanle.github.io/Battleship-Game/.
