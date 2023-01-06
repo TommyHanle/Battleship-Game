@@ -4,6 +4,8 @@ Battleship is a classic two-player strategy game played on a 10x10 grid. Players
 
 This repository contains the code for a web-based implementation of the game. The code includes an HTML file for the layout and content of the page, a CSS file for the styles and layout of the page, and a JavaScript file for the logic and interactivity of the game.
 
+Getting Started:
+- To play this game, simply clone the repository and open the index.html file in your web browser. Alternatively, you can play the game online at https://tommyhanle.github.io/Battleship-Game/.
 
 Features:
 - Enter fullscreen mode on your browser for the best game experience.
@@ -18,10 +20,6 @@ Features:
 - The game ends when one player sinks all of the other player's ships and the winner is declared.
 - Players can play again by clicking on the "Play Again" button.
 - ![Winner/Play Again](https://i.imgur.com/NUHGfSN.png)
-
-
-Getting Started:
-- To play this game, simply clone the repository and open the index.html file in your web browser. Alternatively, you can play the game online at https://tommyhanle.github.io/Battleship-Game/.
 
 
 Requirements:
