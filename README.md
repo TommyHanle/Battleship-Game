@@ -6,6 +6,7 @@ This repository contains the code for a web-based implementation of the game. Th
 
 
 Features:
+- Enter fullscreen mode on your browser for the best game experience.
 - Players can place their ships on their grid in any random variation by clicking on the "Place Ships" button.
 - Once they are satisfied with the layout of their ships, the Player can hit the "Continue" button to begin the game.
 - Players take turns trying to sink each other's ships by clicking on squares on the opponent's grid.
